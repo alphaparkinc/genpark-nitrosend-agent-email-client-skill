@@ -1,3 +1,8 @@
+"""
+genpark-nitrosend-agent-email-client-skill: Client SDK
+"""
+import time
+
 class NitrosendAgentEmailClient:
     def plan_delivery(self, subject: str, body_markdown: str, recipient: str) -> dict:
         payload = {
