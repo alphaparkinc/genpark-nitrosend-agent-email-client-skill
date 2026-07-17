@@ -1,0 +1,30 @@
+{
+  "name": "genpark-nitrosend-agent-email-client-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Nitrosend transactional email format planner.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "email",
+    "agentic",
+    "nitrosend"
+  ],
+  "inputs": {
+    "subject": {
+      "type": "string"
+    },
+    "body_markdown": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "delivered_payload": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
